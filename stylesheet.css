@@ -1,0 +1,138 @@
+body {
+  padding: 35px 7%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+#container {
+ width: 100%;
+ height: auto;
+}
+.jumbotron {
+  padding-right: 12px;
+  background-color: transparent !important;  
+ }
+
+.line {
+  border-style: solid;
+  color: #f2f2f2;
+  box-shadow: 3px -3px 15px #7d97ad;
+}
+
+.bg-image {
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+/* img {
+    width: 100%;
+    height: auto;
+} */
+
+.caption {
+    overflow-wrap: break-word;
+    font-size: 26px;
+    text-align: center;
+}
+
+.ftdwrk {
+    font-size: 36px;
+    color: #7d97ad;
+}
+
+.section1 {
+  fill: gray;
+}
+
+.row {
+    padding-right: 5px;
+}
+
+.bg-image
+img {
+    width: 75%; 
+    background-position: right center;
+    background-size: cover;
+    box-shadow: 0.5px 7px 9px grey;
+}
+
+ .censorthumb {
+    width: 80%;
+    height: 50%;
+    box-shadow: 7px 7px 4px #2d3c49
+}
+.turtlethumb {
+    width: 80%;
+    height: 50%;
+    box-shadow: 7px 7px 9px #2d3c49;
+    text-align: center;
+}
+.newsthumb {
+    width: 80%;
+    height: 50%;
+    box-shadow: 7px 7px 9px #2d3c49;
+} 
+ /* .img-thumbnail {
+    width: 75%;
+    height: auto;
+}  */
+ .superscript {
+    box-shadow: 1px 2px 3px lightblue;
+    color: red; 
+}
+.avatar {
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 2px 2px 2px 2px;
+    box-shadow: 2px 2px 4px #2d3c49;
+}
+
+.stone-snip {
+  height: 17.47px;
+  width: 2800px;
+}
+
+.color-palette-container {
+  padding-top: 75px;
+}
+.color-palette-item {
+  min-height: 60px;
+  width: 60px;
+  margin: 0 auto;
+}
+.color-palette-label {
+  margin-bottom: 24px;
+}
+
+.color1 {
+  background-color: #02b3e4;
+  box-shadow: 4px 3px 15px #2d3c49;
+}
+
+.color2 {
+  background-color: #2d3c49;
+  box-shadow: 4px 3px 15px #2d3c49;
+}
+
+.color3 {
+  background-color: #7d97ad;
+  box-shadow: 4px 3px 15px #2d3c49;
+}
+
+@media screen and (min-width: 1200px) {
+  
+  .color-palette-item {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .color-palette-label {
+    font-size: 24px;
+  }
+}
+.credits {
+    font-size: 24px;
+}
+
